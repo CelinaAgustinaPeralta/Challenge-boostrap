@@ -56,7 +56,9 @@ header{
     margin-left: 100px;
 }
 
+  
 
+  
 .my-button {
     background-color: #db34a3;
     color: white;
@@ -95,27 +97,68 @@ body{
         
     }
 }
-
-
-
-/*
-
-.imagen-uno .responsive-svg{
-   transform: scale(0.5);
-   margin-top: -190px;
-   margin-left: -280px;
-   padding-top: 60px;
-   
+.contenedor {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 
-.primer-titulo {
-    text-align: center;
-    padding-top:30px ;
-    margin: auto;
+.img-dos-personas img{
+    width: 400px;
 }
 
-    /* Otros estilos según tus preferencias */
+.img-dos-personas{
+    padding: 24px;
+    margin-right: 60px;
+}
+
+.parrafo-dos-personas{
+    flex: 1;
+    padding: 40px;
+    margin: 40px;
+    margin-left: 30px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+
+/* .dos-personas{
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    margin-left: 400px;
+    margin-top:-70px;
+}
+
+.parrafo-imagen-uno{
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.parrafos-tres{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.parrafo-tres{
+    text-align: left;  
+    @media (max-width: 768px) { 
+        text-align: center; /
+    }
+}
+
+
+
+
+
   
   
   
