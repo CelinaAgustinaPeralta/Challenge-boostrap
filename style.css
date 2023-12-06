@@ -6,7 +6,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
+    margin-top: 20px;
 }
 .logo img{
     width: 200px;
@@ -25,17 +26,20 @@ header{
 .logo{
     display: flex;
     align-items: center;
-    
+    margin-left: 10px;
 }
 .boton-uno{
     display: flex;
     background-color: #db34a3;
     color: white;
-    padding: 10px 20px;
+    padding: 5px 10px;
     border: none;
     border-radius: 10%;
     cursor: pointer;
     font-weight: 500;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 25px;
 }
 
 .home{
@@ -49,7 +53,7 @@ header{
     margin: 20px;
     text-align: left;
     margin-top: 90px;
-    margin-left: 40px;
+    margin-left: 100px;
 }
 
 
@@ -61,8 +65,20 @@ header{
     border-radius: 10%;
     cursor: pointer;
     font-weight: 500;
+    
 }
 
+.imagen-home-paneles img{
+    width: 500px;
+}
+.imagen-home-paneles{
+    align-items: center;
+    display: flex;
+    margin-right: 70px;
+    margin-top: 35px;
+    padding: 10px;
+    margin-left: 20px;
+}
 .parrafo-home{
     text-align: left;  /* Alineación a la izquierda por defecto */
     @media (max-width: 768px) { /* Media query para dispositivos con un ancho máximo de 768px (tamaño de pantalla típico de móviles) */
