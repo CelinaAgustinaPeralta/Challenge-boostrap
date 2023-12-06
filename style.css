@@ -1,0 +1,105 @@
+body {
+    background-image: url(./images/bg-hero-desktop.svg);
+  
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo img{
+    width: 200px;
+    
+}
+.seccion-home{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    margin-top: 60px;
+}
+.titulo-home {
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.boton-uno{
+    display: flex;
+    background-color: #db34a3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.parrafo-home{
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    margin-top: 90px;
+    margin-left: 40px;
+}
+
+
+.my-button {
+    background-color: #db34a3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.parrafo-home{
+    text-align: left;  /* Alineación a la izquierda por defecto */
+    @media (max-width: 768px) { /* Media query para dispositivos con un ancho máximo de 768px (tamaño de pantalla típico de móviles) */
+        text-align: center; /* Cambia la alineación a centrada en dispositivos móviles */
+    }
+}
+ 
+body{
+    background: url(./images/bg-hero-desktop.svg);
+    @media (max-width: 768px) {
+        body
+        background-image: url(./images/bg-hero-mobile.svg);
+        background-repeat: no-repeat;
+        
+    }
+}
+
+
+
+/*
+
+.imagen-uno .responsive-svg{
+   transform: scale(0.5);
+   margin-top: -190px;
+   margin-left: -280px;
+   padding-top: 60px;
+   
+}
+
+
+.primer-titulo {
+    text-align: center;
+    padding-top:30px ;
+    margin: auto;
+}
+
+    /* Otros estilos según tus preferencias */
+  
+  
+  
