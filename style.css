@@ -89,7 +89,8 @@ header{
 }
  
 body{
-    background: url(./images/bg-hero-desktop.svg);
+
+   background: url(./images/bg-hero-desktop.svg);
     @media (max-width: 768px) {
         body
         background-image: url(./images/bg-hero-mobile.svg);
@@ -97,63 +98,122 @@ body{
         
     }
 }
-.contenedor {
+
+.content-exposicion{
     display: flex;
-    align-items: center;
-    margin: 20px;
+    justify-content: space-between;
+    margin: 60px;
     padding: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
+    flex-wrap: wrap
+}
+.content-conversacion{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+    padding: 20px;
+    flex-wrap: wrap
+    
+}
+.content-dos-personas{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+/* .content-dos-personas{
+    width: 950px;
+    border: 1px solid #ccc;
+    overflow-wrap: break-word;
+}
+.content-conversacion{ SI HAGO ESTO NO ES RESPONSIVO
+    width: 950px;
+    border: 1px solid #ccc;
+    overflow-wrap: break-word; /*caja box todo*/
+
+.parrafo-dos-personas{
+    margin-top: 110px;
+    margin-left: 10px;
+}
+.parrafo-conversacion{
+    margin-top: 100px;
+}
+.parrafo-exposicion{
+    margin-top: 80px;
+    margin-left: 10px;
 }
 
-
-.img-dos-personas img{
-    width: 400px;
+.content-dos-personas{
+    margin: 60px;  
+    @media (max-width: 768px) { 
+        margin: auto; 
+    }
+    
 }
-
-.img-dos-personas{
-    padding: 24px;
-    margin-right: 60px;
+.content-exposicion{
+    margin: 60px;  
+    @media (max-width: 768px) { 
+        margin: auto; 
+    }
+    
+}
+.content-conversacion{
+    margin: 60px;  
+    @media (max-width: 768px) { 
+        margin: auto; 
+    }
+    
 }
 
 .parrafo-dos-personas{
-    flex: 1;
-    padding: 40px;
-    margin: 40px;
-    margin-left: 30px;
-    text-align: left;
-    margin-top: 30px;
+    text-align: left; 
+    @media (max-width: 768px) { 
+        text-align: center;
+    }
+    
 }
-
-
-/* .dos-personas{
-    align-items: center;
-    display: flex;
-    padding: 10px;
-    margin-left: 400px;
-    margin-top:-70px;
-}
-
-.parrafo-imagen-uno{
-    flex: 1;
-    padding: 20px;
-    margin: 20px;
-    text-align: left;
-    margin-top: 30px;
-    margin-left: 100px;
-}
-.parrafos-tres{
-    display: flex;
-    flex-wrap: wrap;
-
-
-}
-.parrafo-tres{
+.parrafo-conversacion{
     text-align: left;  
     @media (max-width: 768px) { 
         text-align: center; /
     }
 }
+.parrafo-exposicion{
+    text-align: left;  
+    @media (max-width: 768px) { 
+        text-align: center; 
+    }
+}
+.content-dos-personas{
+    text-align: center ;
+    @media (max-width:768px){
+        text-align: center;
+    }
+}
+/* SI HAGO BOX NO PUEDE SER RESPONSIVO
+.content-exposicion{
+    width: 950;
+    border: 1px solid #ccc;
+     overflow-wrap: break-word;
+     @media (max-width){
+        width:none ;
+        border: none;
+        overflow-wrap: none;
+     }
+} */
+ 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
