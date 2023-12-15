@@ -190,6 +190,60 @@ body{
         text-align: center;
     }
 }
+
+.container .textoboton{
+    max-width: 600px;
+    min-height: 200px;
+    padding: 20px;
+    background-color: rgb(248, 244, 244);
+    flex-direction: column;
+    border-radius: 10%;
+}
+.rectangulo3{
+    padding: 25px;
+    padding-top: 50px;
+}
+.button-rectangulo{
+    background-color: #db34a3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    font-weight: 500;
+    margin-top: 10px;
+
+}
+footer{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    row-gap:20px;
+    background-color: #00252E;
+    padding:100px;
+}
+.huddle{
+    background-color: white;
+}
+.uno{
+   
+    
+}
+.lista{
+    
+    padding: 35px;
+    
+   
+}
+.lista2{
+    padding: 35px;
+    
+}
+.iconos-final{
+    padding: 35px;
+}
+
 /* SI HAGO BOX NO PUEDE SER RESPONSIVO
 .content-exposicion{
     width: 950;
